@@ -3,7 +3,7 @@
 This module provides functionality for handling Windows messages in Unreal Engine projects. It includes tools for processing, filtering, and managing Windows messages efficiently.
 
 ## Introduction
-The `WindowsMessageListener` module is ideal for developers who need to interact with low-level Windows messages in their Unreal Engine projects. It is particularly useful for:
+The `WindowsMessageListener` module is ideal for developers who need to interact with low-level Windows messages in their Unreal Engine projects. It is useful for:
 - Integrating custom hardware or input devices.
 - Handling system-level events such as power state changes or device connections.
 - Implementing advanced user interactions that require direct access to Windows messages.
@@ -12,10 +12,10 @@ The `WindowsMessageListener` module is ideal for developers who need to interact
 ## Features
 
 ### Process Windows Messages
-The module allows you to intercept and process Windows messages directly within your Unreal Engine project. This is particularly useful for integrating custom input devices, handling system-level events, or implementing advanced user interactions.
+The module allows you to intercept and process Windows messages directly within your Unreal Engine project. This is useful when integrating custom input devices, handling system-level events, or implementing advanced user interactions.
 
 ### Dynamic Message Handlers
-You can dynamically add or remove message handlers at runtime. This flexibility enables you to customize the behavior of your application based on specific requirements or user interactions.
+You can dynamically add or remove message handlers at runtime. This enables you to customize the behavior of your application based on specific requirements or user interactions.
 
 ### Message Filtering
 The module provides filtering capabilities, allowing you to specify which types of Windows messages should be processed. This ensures that only relevant messages are handled, improving performance and reducing unnecessary processing.
