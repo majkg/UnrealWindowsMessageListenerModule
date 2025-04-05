@@ -1,7 +1,7 @@
 # Documentation
 
 ## Overview
-The `WindowsMessageListener` module is designed to handle Windows messages in Unreal Engine projects. It provides a flexible API for processing, filtering, and managing Windows messages. This module is particularly useful for integrating custom hardware, handling system-level events, and implementing advanced user interactions.
+The `WindowsMessageListener` module is designed to handle Windows messages in Unreal Engine projects. It provides a flexible API for processing, filtering, and managing Windows messages. This module is useful for integrating custom hardware, handling system-level events, and implementing advanced user interactions.
 
 ## Classes
 
