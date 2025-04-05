@@ -18,13 +18,13 @@ The module allows you to intercept and process Windows messages directly within 
 You can dynamically add or remove message handlers at runtime. This flexibility enables you to customize the behavior of your application based on specific requirements or user interactions.
 
 ### Message Filtering
-The module provides robust filtering capabilities, allowing you to specify which types of Windows messages should be processed. This ensures that only relevant messages are handled, improving performance and reducing unnecessary processing.
+The module provides filtering capabilities, allowing you to specify which types of Windows messages should be processed. This ensures that only relevant messages are handled, improving performance and reducing unnecessary processing.
 
 ### Verbose Logging
-For debugging purposes, the module includes an option to enable verbose logging. This feature provides detailed information about the messages being processed, helping you identify and resolve issues more efficiently.
+When debugging, message logs can easily get spammed when dealing with verbose message data, so verbose logging can be toggled at runtime. This feature provides on-demnand logging for detailed information about the messages being processed, letting you identify and resolve issues more efficiently.
 
 ### Modular Design
-The module is designed to be modular and easy to integrate into existing Unreal Engine projects. Whether you are adding it to a module or the main project, the setup process is straightforward.
+The module is designed to be modular and easy to integrate into existing Unreal Engine projects.
 
 ## Installation
 
